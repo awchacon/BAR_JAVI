@@ -36,7 +36,7 @@ import base64
 from PIL import Image
 
 # Configuración de la página
-st.set_page_config(page_title="DeepCarVision", page_icon="static/images/logo.png", layout="centered")
+st.set_page_config(page_title="Bar Ribeiriño", page_icon="static/images/logo.png", layout="centered")
 
 # Cargar el archivo CSS
 def load_css():
@@ -46,7 +46,7 @@ def load_css():
 load_css()
 
 # Título principal
-st.markdown("<h1 class='center-text'>DeepCarVision</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='center-text'>Bar Ribeiriño</h1>", unsafe_allow_html=True)
 st.write("")
 
 # Menú de opciones
@@ -418,7 +418,7 @@ a:hover,  a:active {
             Síguenos en <a href="url_de_tu_perfil_de_linkedin" target="_blank">LinkedIn</a>
         </p>
     </div>
-    <p>Creador 🤖 por <a href="www.linkedin.com/in/aaron-chacon" target="_blank">DeepCarVision</a></p>
+    <p>Creador 🤖 por <a href="www.linkedin.com/in/aaron-chacon" target="_blank">Bar Ribeiriño</a></p>
 </div>
 """
 
