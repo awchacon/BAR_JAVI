@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Fondo negro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #210a93 !important; /* Cambiar color del título */
+    font-style: italic;
+    text-align: center;
+    font-size: 36px; /* Ajuste del tamaño del título principal */
+    margin: 20px 0;
+}
+
+p {
+    color: #ffffff !important; /* Cambiar color del párrafo */
+    font-size: 18px; /* Ajuste para móviles */
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: 20px; /* Ajuste para móviles */
+    color: #ff5733 !important; /* Cambiar color del texto del header */
+    padding: 10px 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilos para centrar el contenido */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px; /* Ajuste para móviles */
+}
+
+.centered-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.center-text {
+    text-align: center;
+    color: white;
+    font-size: 15px; /* Ajuste para móviles */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para las pestañas */
+.stTabs [data-baseweb="tab"] {
+    color: #ff5733 !important; /* Cambiar color del texto de las pestañas */
+    font-size: 14px; /* Ajuste para móviles */
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    color: #210a93 !important; /* Cambiar color del texto al pasar el mouse por las pestañas */
+}
+
+.stTabs [data-baseweb="tab"]:focus {
+    color: #ff5733 !important; /* Cambiar color del texto de las pestañas al enfocarse */
+}
+
+.stTabs [aria-selected="true"] {
+    color: #ffffff !important; /* Cambiar color del texto de las pestañas activas */
+}
+
+/* Ajustes específicos para st.title y st.header */
+.stTitle h1 {
+    font-size: 24px; /* Tamaño ajustado para st.title */
+    color: #210a93 !important;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Ajustes para títulos específicos */
+.stMarkdown h1 {
+    font-size: 60px !important; /* Aumentar significativamente el tamaño del título */
+}
+.stHeader h2 {
+    font-size: 20px; /* Tamaño ajustado para st.header */
+    color: #210a93 !important;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Media Queries para móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 36px; /* Aumentar significativamente el tamaño del título */
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .footer img {
+        width: 20px;
+        margin: 3px;
+    }
+
+    .footer p {
+        margin: 3px;
+    }
+
+    .stTabs [data-baseweb="tab"] {
+        font-size: 14px;
+    }
+
+    .stTabs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .centered-content {
+        margin-bottom: 10px;
+    }
+}
+
+/* Ajustes para los botones y el layout */
+.stButton button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #210a93;
+    color: white;
+}
+
+.stSlider .stMarkdown {
+    margin: 0;
+    padding: 0;
+}
+
+.stDataFrame {
+    font-size: 14px;
+}
+
+/* Ajustes para gráficos */
+.plotly-graph {
+    margin: 0 auto;
+}
+
+.stPlotlyChart {
+    width: 100% !important;
+    height: auto !important;
+}
