@@ -3,7 +3,7 @@ import base64
 from PIL import Image
 
 # Configuración de la página
-st.set_page_config(page_title="Bar Ribeiriño", page_icon="static/images/logo.png", layout="centered")
+st.set_page_config(page_title="EL RIBEIRIÑO", page_icon="static/images/logo.png", layout="centered")
 
 # Cargar el archivo CSS
 def load_css():
@@ -13,13 +13,13 @@ def load_css():
 load_css()
 
 # Título principal
-st.markdown("<h1 class='center-text'>Bar Ribeiriño</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='center-text'>EL RIBEIRIÑO</h1>", unsafe_allow_html=True)
 st.write("")
 
 # Menú de opciones
 selected = st.selectbox(
     "Menú",
-    ["Inicio", "Carta", "Platos Especiales", "Contacto"]
+    ["Inicio", "Para Compartir", "Platos Especiales", "Contacto"]
 )
 
 # Función HomePage
@@ -36,9 +36,9 @@ def HomePage():
     st.write("Disfruta de nuestros deliciosos platos y bebidas en un ambiente acogedor.")
 
 # Función para mostrar la carta
-def Carta():
-    st.header("Nuestra Carta")
-    image = Image.open("static/images/menu.jpg")
+def para_compartir():
+    #st.header("Para Compartir")
+    image = Image.open("static/images/para_compartir.jpg")
     st.image(image, caption='Menú del Bar', use_column_width=True)
 
 # Función para mostrar los platos especiales
@@ -81,8 +81,8 @@ def Contacto():
 if selected == "Inicio":
     HomePage()
 
-if selected == "Carta":
-    Carta()
+if selected == "Para Compartir":
+    para_compartir()
 
 if selected == "Platos Especiales":
     PlatosEspeciales()

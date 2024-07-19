@@ -18,8 +18,10 @@ h1 {
     color: #210a93 !important; /* Cambiar color del título */
     font-style: italic;
     text-align: center;
-    font-size: 36px; /* Ajuste del tamaño del título principal */
+    font-size: 48px; /* Ajuste del tamaño del título principal */
+    font-weight: bold; /* Hacer el título más grueso */
     margin: 20px 0;
+    font-family: 'Georgia', serif; /* Cambiar la fuente para un look más elegante */
 }
 
 p {
@@ -62,8 +64,8 @@ header {
 .center-text {
     text-align: center;
     color: white;
-    font-size: 15px; /* Ajuste para móviles */
-    font-family: Arial, sans-serif;
+    font-size: 24px; /* Ajuste del tamaño del texto */
+    font-family: 'Georgia', serif; /* Cambiar la fuente para un look más elegante */
 }
 
 /* Estilos para las pestañas */
@@ -95,6 +97,8 @@ header {
 /* Ajustes para títulos específicos */
 .stMarkdown h1 {
     font-size: 60px !important; /* Aumentar significativamente el tamaño del título */
+    font-weight: bold; /* Hacer el título más grueso */
+    font-family: 'Georgia', serif; /* Cambiar la fuente para un look más elegante */
 }
 .stHeader h2 {
     font-size: 20px; /* Tamaño ajustado para st.header */
