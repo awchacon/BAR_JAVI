@@ -19,7 +19,7 @@ st.write("")
 # Menú de opciones
 selected = st.selectbox(
     "Menú",
-    ["Inicio", "Para Compartir", "Platos Especiales", "Contacto"]
+    ["Inicio", "Para Compartir", "Platos Especiales", "Combinados", "Cocteles", "Contacto"]
 )
 
 # Función HomePage
@@ -46,6 +46,14 @@ def PlatosEspeciales():
     #st.header("Platos Especiales")
     image = Image.open("static/images/todo.jpg")
     st.image(image, caption='Platos Especiales', use_column_width=True)
+
+def Combinados():
+    image = Image.open("static/images/combinados.jpg")
+    st.image(image, caption='Platos Especiales', use_column_width=True)
+
+def Cocteles():
+    image = Image.open("static/images/cocteles.jpg")
+    st.image(image, caption='Platos Especiales', use_column_width=True)    
 
 # Función para mostrar la información de contacto
 def Contacto():
@@ -86,6 +94,12 @@ if selected == "Para Compartir":
 
 if selected == "Platos Especiales":
     PlatosEspeciales()
+
+if selected == "Combinados":
+    Combinados()
+
+if selected == "Cocteles":
+    Cocteles()
 
 if selected == "Contacto":
     Contacto()
