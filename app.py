@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 import base64
 from PIL import Image
 
@@ -39,20 +38,14 @@ def HomePage():
 # Función para mostrar la carta
 def Carta():
     st.header("Nuestra Carta")
-    df = pd.read_csv('C:/Universidad/bar_javi/static/data/para_compartir.csv', sep=',', header=0)
-    st.dataframe(df, use_container_width=True)
+    image = Image.open('static/images/menu.jpg')
+    st.image(image, caption='Menú del Bar', use_column_width=True)
 
 # Función para mostrar los platos especiales
 def PlatosEspeciales():
     st.header("Platos Especiales")
-    df = pd.read_csv('C:/Universidad/bar_javi/static/data/para_compartir.csv', sep=',', header=0)
-    st.dataframe(df, use_container_width=True)
-    
-    for i, row in df.iterrows():
-        st.subheader(row["Nombre"])
-        st.image(row["Imagen"], width=300)
-        st.write(row["Descripción"])
-        st.write(f"Precio: {row['Precio']} €")
+    image = Image.open('static/images/menu.jpg')
+    st.image(image, caption='Platos Especiales', use_column_width=True)
 
 # Función para mostrar la información de contacto
 def Contacto():
