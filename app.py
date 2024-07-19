@@ -44,7 +44,7 @@ def para_compartir():
 # Función para mostrar los platos especiales
 def PlatosEspeciales():
     st.header("Platos Especiales")
-    image = Image.open("static/images/menu.jpg")
+    image = Image.open("static/images/todo.jpg")
     st.image(image, caption='Platos Especiales', use_column_width=True)
 
 # Función para mostrar la información de contacto
