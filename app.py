@@ -38,13 +38,13 @@ def HomePage():
 # Función para mostrar la carta
 def Carta():
     st.header("Nuestra Carta")
-    image = Image.open('static/images/menu.jpg')
+    image = Image.open("static/images/menu.jpg")
     st.image(image, caption='Menú del Bar', use_column_width=True)
 
 # Función para mostrar los platos especiales
 def PlatosEspeciales():
     st.header("Platos Especiales")
-    image = Image.open('static/images/menu.jpg')
+    image = Image.open("static/images/menu.jpg")
     st.image(image, caption='Platos Especiales', use_column_width=True)
 
 # Función para mostrar la información de contacto
