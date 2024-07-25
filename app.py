@@ -3,7 +3,7 @@ import base64
 from PIL import Image
 
 # Configuración de la página
-st.set_page_config(page_title="EL RIBEIRIÑO", page_icon="static/images/logo.png", layout="centered")
+st.set_page_config(page_title="EL RIBEIRIÑO", page_icon="static/images/Flag_España.png", layout="centered")
 
 # Cargar el archivo CSS
 def load_css():
