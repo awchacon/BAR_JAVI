@@ -71,30 +71,18 @@ def Cocteles():
 # Función para mostrar la información de contacto
 def Contacto():
     st.header("Contacto")
-    st.write("📍 Dirección: Calle del Bar, 123, Ciudad")
-    st.write("📞 Teléfono: +34 123 456 789")
-    st.write("📧 Email: contacto@barribeirinho.com")
+    st.write("📞 Teléfono: 606720892")
+    st.write("📍 Dirección: C. de la Isla de Rodas, 4, Fuencarral-El Pardo, 28034 Madrid")
+    st.markdown("<a href='https://g.co/kgs/ffq7gLk' target='_blank'>Ubicación en Google Maps</a>", unsafe_allow_html=True)
+    st.write("📧 Email: fabioladerek_0709@icloud.com")
     st.markdown("""
         <div class="footer">
             <div class="social-icons">
                 <p>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram" title="Instagram">
-                    Síguenos en <a href="url_de_tu_perfil_de_instagram" target="_blank">Instagram</a>
+                    Síguenos en <a href="https://www.tiktok.com/@el_rinconcito_de_colasa?_t=8o9TbJPQtPN&_r=1" target="_blank">TikTok</a>
                 </p>
             </div>
-            <div class="social-icons">
-                <p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/220px-2021_Facebook_icon.svg.png" alt="Facebook" title="Facebook">
-                    Síguenos en <a href="url_de_tu_perfil_de_facebook" target="_blank">Facebook</a>
-                </p>
-            </div>
-            <div class="social-icons">
-                <p>
-                    <img src="https://store-images.s-microsoft.com/image/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.bc4172bd-63f0-455a-9acd-5457f44e4473" alt="LinkedIn" title="LinkedIn">
-                    Síguenos en <a href="url_de_tu_perfil_de_linkedin" target="_blank">LinkedIn</a>
-                </p>
-            </div>
-            <p>Creador 🤖 por <a href="www.linkedin.com/in/aaron-chacon" target="_blank">Bar Ribeiriño</a></p>
         </div>
     """, unsafe_allow_html=True)
 
