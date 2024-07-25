@@ -10,13 +10,13 @@
 }
 
 .center-content img {
-    max-width: 100px;
+    max-width: 150px;  /* Aumentar tamaño de imagen */
     height: auto;
 }
 
 @media (max-width: 768px) {
     .center-content img {
-        max-width: 80px;
+        max-width: 120px;  /* Aumentar tamaño de imagen en pantallas pequeñas */
     }
 }
 
