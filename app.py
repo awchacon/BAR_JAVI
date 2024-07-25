@@ -53,20 +53,20 @@ def HomePage():
 # Función para mostrar la carta
 def para_compartir():
     image = Image.open("static/images/para_compartir.jpg")
-    st.image(image, caption='Menú del Bar', use_column_width=True)
+    st.image(image, caption='Menú para compartir ', use_column_width=True)
 
 # Función para mostrar los platos especiales
 def PlatosEspeciales():
     image = Image.open("static/images/todo.jpg")
-    st.image(image, caption='Platos Especiales', use_column_width=True)
+    st.image(image, caption='Menú platos Especiales', use_column_width=True)
 
 def Combinados():
     image = Image.open("static/images/combinados.jpg")
-    st.image(image, caption='Platos Especiales', use_column_width=True)
+    st.image(image, caption='Menú platos combinados', use_column_width=True)
 
 def Cocteles():
     image = Image.open("static/images/cocteles.jpg")
-    st.image(image, caption='Platos Especiales', use_column_width=True)    
+    st.image(image, caption='Cócteles', use_column_width=True)    
 
 # Función para mostrar la información de contacto
 def Contacto():
@@ -79,7 +79,7 @@ def Contacto():
         <div class="footer">
             <div class="social-icons">
                 <p>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram" title="Instagram">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Tiktok-logo.png" alt="TikTok" title="TikTok" width="20" height="20">
                     Síguenos en <a href="https://www.tiktok.com/@el_rinconcito_de_colasa?_t=8o9TbJPQtPN&_r=1" target="_blank">TikTok</a>
                 </p>
             </div>
