@@ -24,26 +24,39 @@ selected = st.selectbox(
 
 # Función HomePage
 def HomePage():
-    file_ = open("static/images/bar_gif.gif", "rb")
-    contents = file_.read()
-    data_url = base64.b64encode(contents).decode("utf-8")
-    file_.close()
-    st.markdown(
-        f'<div class="centered-content"><img src="data:image/gif;base64,{data_url}" alt="main gif"></div>',
-        unsafe_allow_html=True,
-    )
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        file_es = open("static/images/Flag_España.png", "rb")
+        contents_es = file_es.read()
+        data_url_es = base64.b64encode(contents_es).decode("utf-8")
+        file_es.close()
+        st.markdown(f'<img src="data:image/png;base64,{data_url_es}" alt="Flag España" style="width:220px;height:auto;">', unsafe_allow_html=True)
+        
+    with col2:
+        file_pt = open("static/images/Flag_Dominican_Republic.png", "rb")
+        contents_pt = file_pt.read()
+        data_url_pt = base64.b64encode(contents_pt).decode("utf-8")
+        file_pt.close()
+        st.markdown(f'<img src="data:image/png;base64,{data_url_pt}" alt="Flag RD" style="width:220px;height:auto;">', unsafe_allow_html=True)
+        
+    with col3:
+        file_br = open("static/images/Flag_of_Italy.png", "rb")
+        contents_br = file_br.read()
+        data_url_br = base64.b64encode(contents_br).decode("utf-8")
+        file_br.close()
+        st.markdown(f'<img src="data:image/png;base64,{data_url_br}" alt="Flag Italy" style="width:220px;height:auto;">', unsafe_allow_html=True)
+    
     st.markdown("<h2 class='center-text'>¡Bienvenidos al Bar Ribeiriño!</h2>", unsafe_allow_html=True)
-    st.write("Disfruta de nuestros deliciosos platos y bebidas en un ambiente acogedor.")
+    st.markdown("<p style='text-align: center;'>Disfruta de nuestros deliciosos platos y bebidas en un ambiente acogedor.</p>", unsafe_allow_html=True)
 
 # Función para mostrar la carta
 def para_compartir():
-    #st.header("Para Compartir")
     image = Image.open("static/images/para_compartir.jpg")
     st.image(image, caption='Menú del Bar', use_column_width=True)
 
 # Función para mostrar los platos especiales
 def PlatosEspeciales():
-    #st.header("Platos Especiales")
     image = Image.open("static/images/todo.jpg")
     st.image(image, caption='Platos Especiales', use_column_width=True)
 
