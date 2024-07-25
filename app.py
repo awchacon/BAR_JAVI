@@ -79,8 +79,7 @@ def Contacto():
         <div class="footer">
             <div class="social-icons">
                 <p>
-                    <img src="static/images/tiktok_logo.png" alt="TikTok" title="TikTok" width="20" height="20">
-                    Síguenos en <a href="https://www.tiktok.com/@el_rinconcito_de_colasa?_t=8o9TbJPQtPN&_r=1" target="_blank">TikTok</a>
+                    💖 Síguenos en <a href="https://www.tiktok.com/@el_rinconcito_de_colasa?_t=8o9TbJPQtPN&_r=1" target="_blank">TikTok</a>
                 </p>
             </div>
         </div>
