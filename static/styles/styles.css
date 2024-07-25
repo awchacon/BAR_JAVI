@@ -170,3 +170,25 @@ header {
     width: 100% !important;
     height: auto !important;
 }
+
+
+.center-text {
+    text-align: center;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content img {
+    width: 100px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .center-content img {
+        width: 80px;
+    }
+}
