@@ -3,7 +3,7 @@ import base64
 from PIL import Image
 
 # Configuración de la página
-st.set_page_config(page_title="EL RIBEIRIÑO", page_icon="static/images/Flag_España.png", layout="centered")
+st.set_page_config(page_title="EL RIBEIRIÑO", page_icon="static/images/logo.png", layout="centered")
 
 # Cargar el archivo CSS
 def load_css():
@@ -31,24 +31,24 @@ def HomePage():
         contents_es = file_es.read()
         data_url_es = base64.b64encode(contents_es).decode("utf-8")
         file_es.close()
-        st.markdown(f'<img src="data:image/png;base64,{data_url_es}" alt="Flag España" style="width:220px;height:auto;">', unsafe_allow_html=True)
+        st.markdown(f'<div class="center-content"><img src="data:image/png;base64,{data_url_es}" alt="Flag España"></div>', unsafe_allow_html=True)
         
     with col2:
         file_pt = open("static/images/Flag_Dominican_Republic.png", "rb")
         contents_pt = file_pt.read()
         data_url_pt = base64.b64encode(contents_pt).decode("utf-8")
         file_pt.close()
-        st.markdown(f'<img src="data:image/png;base64,{data_url_pt}" alt="Flag RD" style="width:220px;height:auto;">', unsafe_allow_html=True)
+        st.markdown(f'<div class="center-content"><img src="data:image/png;base64,{data_url_pt}" alt="Flag RD"></div>', unsafe_allow_html=True)
         
     with col3:
         file_br = open("static/images/Flag_of_Italy.png", "rb")
         contents_br = file_br.read()
         data_url_br = base64.b64encode(contents_br).decode("utf-8")
         file_br.close()
-        st.markdown(f'<img src="data:image/png;base64,{data_url_br}" alt="Flag Italy" style="width:220px;height:auto;">', unsafe_allow_html=True)
+        st.markdown(f'<div class="center-content"><img src="data:image/png;base64,{data_url_br}" alt="Flag Italy"></div>', unsafe_allow_html=True)
     
     st.markdown("<h2 class='center-text'>¡Bienvenidos al Bar Ribeiriño!</h2>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center;'>Disfruta de nuestros deliciosos platos y bebidas en un ambiente acogedor.</p>", unsafe_allow_html=True)
+    st.markdown("<p class='center-text'>Disfruta de nuestros deliciosos platos y bebidas en un ambiente acogedor.</p>", unsafe_allow_html=True)
 
 # Función para mostrar la carta
 def para_compartir():
