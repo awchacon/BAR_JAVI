@@ -1,3 +1,5 @@
+/* styles.css */
+
 .center-text {
     text-align: center;
 }
@@ -21,8 +23,6 @@
     }
 }
 
-
-
 body {
     font-family: Arial, sans-serif;
     background-color: #000000; /* Fondo negro */
@@ -42,11 +42,12 @@ body {
 h1 {
     color: #fcfcfc !important; /* Cambiar color del título */
     font-style: italic;
-    text-align: center;
-    font-size: 10px; /* Ajuste del tamaño del título principal */
+    text-align: center; /* Centrar el título */
+    font-size: 36px; /* Ajuste del tamaño del título principal */
     font-weight: bold; /* Hacer el título más grueso */
     margin: 20px 0;
     font-family: 'Georgia', serif; /* Cambiar la fuente para un look más elegante */
+    white-space: nowrap; /* Evitar el ajuste de línea */
 }
 
 p {
@@ -121,10 +122,13 @@ header {
 
 /* Ajustes para títulos específicos */
 .stMarkdown h1 {
-    font-size: 60px !important; /* Aumentar significativamente el tamaño del título */
+    font-size: 40px !important; /* Ajustar el tamaño del título */
     font-weight: bold; /* Hacer el título más grueso */
     font-family: 'Georgia', serif; /* Cambiar la fuente para un look más elegante */
+    text-align: center; /* Centrar el título */
+    white-space: nowrap; /* Evitar el ajuste de línea */
 }
+
 .stHeader h2 {
     font-size: 20px; /* Tamaño ajustado para st.header */
     color: #210a93 !important;
@@ -135,7 +139,7 @@ header {
 /* Media Queries para móviles */
 @media (max-width: 600px) {
     h1 {
-        font-size: 36px; /* Aumentar significativamente el tamaño del título */
+        font-size: 24px; /* Reducir el tamaño del título en pantallas pequeñas */
     }
 
     p {
