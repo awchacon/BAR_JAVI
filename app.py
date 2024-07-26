@@ -13,7 +13,7 @@ def load_css():
 load_css()
 
 # Título principal
-st.markdown("<h1 class='center-text'>EL RIBEIRIÑO</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='left-text'>EL RIBEIRIÑO</h1>", unsafe_allow_html=True)
 st.write("")
 
 # Menú de opciones
