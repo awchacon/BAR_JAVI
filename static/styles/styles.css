@@ -42,7 +42,7 @@ body {
 h1 {
     color: #fcfcfc !important; /* Cambiar color del título */
     font-style: italic;
-    text-align: center;
+    text-align: left;
     font-size: 30px; /* Ajuste del tamaño del título principal */
     font-weight: bold; /* Hacer el título más grueso */
     margin: 20px 0;
