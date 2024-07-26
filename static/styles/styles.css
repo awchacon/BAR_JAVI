@@ -42,7 +42,7 @@ body {
 h1 {
     color: #fcfcfc !important; /* Cambiar color del título */
     font-style: italic;
-    text-align: center;
+    text-align: center; /* Centrar el título */
     font-size: 40px; /* Ajuste del tamaño del título principal */
     font-weight: bold; /* Hacer el título más grueso */
     margin: 20px 0;
@@ -123,9 +123,9 @@ header {
 /* Ajustes para títulos específicos */
 .stMarkdown h1 {
     font-size: 48px !important; /* Ajustar el tamaño del título */
-    text-align: center;
     font-weight: bold; /* Hacer el título más grueso */
     font-family: 'Georgia', serif; /* Cambiar la fuente para un look más elegante */
+    text-align: center; /* Centrar el título */
     white-space: nowrap; /* Evitar el ajuste de línea */
 }
 
