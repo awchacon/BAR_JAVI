@@ -122,7 +122,7 @@ header {
 
 /* Ajustes para títulos específicos */
 .stMarkdown h1 {
-    font-size: 44px !important; /* Ajustar el tamaño del título */
+    font-size: 48px !important; /* Ajustar el tamaño del título */
     text-align: center;
     font-weight: bold; /* Hacer el título más grueso */
     font-family: 'Georgia', serif; /* Cambiar la fuente para un look más elegante */
