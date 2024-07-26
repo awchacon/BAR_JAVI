@@ -43,7 +43,7 @@ h1 {
     color: #fcfcfc !important; /* Cambiar color del título */
     font-style: italic;
     text-align: center;
-    font-size: 48px; /* Ajuste del tamaño del título principal */
+    font-size: 40px; /* Ajuste del tamaño del título principal */
     font-weight: bold; /* Hacer el título más grueso */
     margin: 20px 0;
     font-family: 'Georgia', serif; /* Cambiar la fuente para un look más elegante */
