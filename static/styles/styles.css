@@ -43,7 +43,7 @@ h1 {
     color: #fcfcfc !important; /* Cambiar color del título */
     font-style: italic;
     text-align: left;
-    font-size: 20px; /* Ajuste del tamaño del título principal */
+    font-size: 10px; /* Ajuste del tamaño del título principal */
     font-weight: bold; /* Hacer el título más grueso */
     margin: 20px 0;
     font-family: 'Georgia', serif; /* Cambiar la fuente para un look más elegante */
@@ -57,7 +57,7 @@ p {
 }
 
 header {
-    font-size: 20px; /* Ajuste para móviles */
+    font-size: 10px; /* Ajuste para móviles */
     color: #ff5733 !important; /* Cambiar color del texto del header */
     padding: 10px 20px;
     border-radius: 8px 8px 0 0;
