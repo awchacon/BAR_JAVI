@@ -1,3 +1,5 @@
+/* styles.css */
+
 .center-text {
     text-align: center;
 }
@@ -21,8 +23,6 @@
     }
 }
 
-
-
 body {
     font-family: Arial, sans-serif;
     background-color: #000000; /* Fondo negro */
@@ -43,10 +43,11 @@ h1 {
     color: #fcfcfc !important; /* Cambiar color del título */
     font-style: italic;
     text-align: left;
-    font-size: 10px; /* Ajuste del tamaño del título principal */
+    font-size: 48px; /* Ajuste del tamaño del título principal */
     font-weight: bold; /* Hacer el título más grueso */
     margin: 20px 0;
     font-family: 'Georgia', serif; /* Cambiar la fuente para un look más elegante */
+    white-space: nowrap; /* Evitar el ajuste de línea */
 }
 
 p {
@@ -124,7 +125,9 @@ header {
     font-size: 60px !important; /* Aumentar significativamente el tamaño del título */
     font-weight: bold; /* Hacer el título más grueso */
     font-family: 'Georgia', serif; /* Cambiar la fuente para un look más elegante */
+    white-space: nowrap; /* Evitar el ajuste de línea */
 }
+
 .stHeader h2 {
     font-size: 20px; /* Tamaño ajustado para st.header */
     color: #210a93 !important;
@@ -195,5 +198,3 @@ header {
     width: 100% !important;
     height: auto !important;
 }
-
-
