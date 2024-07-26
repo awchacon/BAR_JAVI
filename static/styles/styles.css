@@ -139,7 +139,7 @@ header {
 /* Media Queries para móviles */
 @media (max-width: 600px) {
     h1 {
-        font-size: 24px; /* Reducir el tamaño del título en pantallas pequeñas */
+        font-size: 28px; /* Reducir el tamaño del título en pantallas pequeñas */
     }
 
     p {
